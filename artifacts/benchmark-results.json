@@ -1,0 +1,47 @@
+{
+  "benchmark_metadata": {
+    "timestamp": "2026-10-24T18:33:23.945838+00:00",
+    "environment": "macOS / Apple Silicon",
+    "python_version": "3.14.6",
+    "runtime_mode": "LOCAL_DETERMINISTIC_ENGINE",
+    "note": "All percentiles empirically measured from real script execution on local system."
+  },
+  "benchmarks": {
+    "pii_firewall_sanitization": {
+      "iterations": 200,
+      "mean_ms": 0.016,
+      "median_p50_ms": 0.015,
+      "p95_ms": 0.017,
+      "p99_ms": 0.026,
+      "min_ms": 0.015,
+      "max_ms": 0.083
+    },
+    "hybrid_policy_rag_retrieval": {
+      "iterations": 100,
+      "mean_ms": 0.074,
+      "median_p50_ms": 0.071,
+      "p95_ms": 0.085,
+      "p99_ms": 0.176,
+      "min_ms": 0.07,
+      "max_ms": 0.176
+    },
+    "canonical_sha256_payload_hash": {
+      "iterations": 1000,
+      "mean_ms": 0.004,
+      "median_p50_ms": 0.004,
+      "p95_ms": 0.004,
+      "p99_ms": 0.005,
+      "min_ms": 0.004,
+      "max_ms": 0.041
+    },
+    "multi_agent_workflow_turn": {
+      "iterations": 30,
+      "mean_ms": 6.967,
+      "median_p50_ms": 6.801,
+      "p95_ms": 8.227,
+      "p99_ms": 10.302,
+      "min_ms": 6.244,
+      "max_ms": 10.302
+    }
+  }
+}

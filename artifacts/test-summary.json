@@ -1,0 +1,81 @@
+{
+  "project": "enterprise-agentic-ops-workspace",
+  "timestamp": "2026-10-24T18:37:34.893489+00:00",
+  "test_framework": "pytest 9.1.1",
+  "total_tests": 31,
+  "passed": 31,
+  "failed": 0,
+  "skipped": 0,
+  "pass_rate_percentage": 100.0,
+  "suites": {
+    "unit_tests": {
+      "file": "backend/tests/test_unit.py",
+      "count": 12,
+      "passed": 12,
+      "coverage": [
+        "PII Firewall Luhn Mod-10 PAN Redaction",
+        "PII Firewall False-Positive Mitigation on Serial Numbers",
+        "PII Firewall SSN & Stripe API Key Redaction",
+        "SAP S/4HANA OData Catalog Search & Pricing",
+        "SAP Purchase Order Creation (PO-4500xxxxxx)",
+        "MCP 2.x Freight Logistics & Statutory GST Calculation",
+        "MCP 2.x Cost Center Headroom Verification",
+        "Hybrid BM25 + Dense Cosine Vector Similarity RAG",
+        "Access Tier Cross-Document Permissions Enforcement",
+        "Cryptographic SHA-256 Payload Hash Determinism",
+        "Triage Agent Intent Classification",
+        "Compliance Supervisor Spending Threshold Halting"
+      ]
+    },
+    "integration_tests": {
+      "file": "backend/tests/test_integration.py",
+      "count": 3,
+      "passed": 3,
+      "coverage": [
+        "SQLite WAL Mode Database Lifecycle & Pragma Verification",
+        "End-to-End Multi-Agent Turn with Automatic Approval Pause",
+        "Durable Checkpoint Resumption & ERP Execution Surviving Restart"
+      ]
+    },
+    "security_negative_tests": {
+      "file": "backend/tests/test_security_negative.py",
+      "count": 4,
+      "passed": 4,
+      "coverage": [
+        "Self-Approval Prevention (Requester Blocked from Authorizing Own PO)",
+        "Insufficient Role Hierarchy Authority Check (Executive Signoff Enforcement)",
+        "Cryptographic Payload Tampering Detection via Fingerprint Mismatch",
+        "Prohibited Grey-Market Supplier Automated Rejection (Section 4.2)"
+      ]
+    },
+    "api_endpoints_tests": {
+      "file": "backend/tests/test_api_endpoints.py",
+      "count": 11,
+      "passed": 11,
+      "coverage": [
+        "Health Live Probe",
+        "Health Ready Probe with SQLite WAL Verification",
+        "Integrations Multi-Adapter Status Reporting",
+        "JWT Token Issuance for Pre-Seeded Enterprise Identities",
+        "Unknown Enterprise Identity Rejection",
+        "Identity Switcher Directory Listing",
+        "Conversations CRUD and History Retrieval",
+        "Access-Tier SharePoint Document Governance Scoping",
+        "Immutable Audit Trail Querying with Correlation Tracking",
+        "Manager Requisition Rejection with Mandatory Justification",
+        "Rejection Rejection on Missing/Trivial Audit Reason"
+      ]
+    },
+    "e2e_browser_tests": {
+      "file": "backend/tests/test_e2e_browser.py",
+      "count": 1,
+      "passed": 1,
+      "coverage": [
+        "Headless Chromium Browser Rendering & Navigation",
+        "Single-Port Static Frontend Serving Verification",
+        "DOM Element Hydration & Component State Mount",
+        "Enterprise Inspector Drawer & SAP Catalog Interaction"
+      ]
+    }
+  }
+}
